@@ -84,7 +84,7 @@ select {
     font-weight: 400;
     font-size: 16px;
     list-style-image: url(./assets/img/solar_map-arrow-up-bold.svg);
-    padding-left: 20px;
+    padding: 0px 20px
 
 }
 
@@ -92,7 +92,7 @@ select {
     /* Стили для нумерованного списка во второй секции */
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px;
+    padding: 0px 20px;
 }
 
 .label {
@@ -137,12 +137,14 @@ table {
     /* Стили для таблицы */
     border: 1px solid #95a1bb;
     border-collapse: collapse;
+font-size: 14px;
+
 }
 
 th,
 td {
     /* Стили для ячеек таблицы */
-    padding: 12px 14px 11px 15px;
+    padding: 12px 15px;
 }
 
 footer {
